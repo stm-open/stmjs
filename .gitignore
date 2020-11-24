@@ -1,0 +1,48 @@
+# .gitignore
+
+# Ignore vim swap files.
+*.swp
+
+# Ignore SCons support files.
+.sconsign.dblite
+
+# Ignore python compiled files.
+*.pyc
+
+# Ignore Macintosh Desktop Services Store files.
+.DS_Store
+
+# Ignore backup/temps
+*~
+
+# Ignore object files.
+*.o
+build/*.js
+tags
+bin/streamed
+Debug/*.*
+Release/*.*
+
+# Ignore locally installed node_modules
+node_modules
+
+# Ignore tmp directory.
+tmp
+
+# Ignore database directory.
+db/*.db
+db/*.db-*
+
+# Ignore customized configs
+streamed.cfg
+validators.txt
+test/config.js
+
+# Ignore IntelliJ files
+.idea
+
+# Ignore npm-debug
+npm-debug.log
+
+# Ignore dist folder, build for bower
+dist/

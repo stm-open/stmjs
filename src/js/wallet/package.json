@@ -1,0 +1,13 @@
+{
+  "name": "wallet-generator",
+  "version": "1.0.1",
+  "description": "A node.js library for generating a Stream wallet.",
+  "main": "lib/wallet.js",
+  "scripts": {
+    "test": ""
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "readme": "",
+  "readmeFilename": ""
+}
